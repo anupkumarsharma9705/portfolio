@@ -79,7 +79,7 @@ export default function Layout({ children }) {
                   >
                     <span className="mr-2">{item.icon}</span>
                     {item.label}
-                    <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></div>
+                    {/* <div className="absolute bottom-0 left-0 w-0 h-1 bg-red-600 transition-all duration-300 group-hover:w-full"></div> */}
                   </button>
                 ))}
               </div>
