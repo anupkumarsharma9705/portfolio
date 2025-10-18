@@ -23,10 +23,10 @@ export default function TeamRadio() {
   };
 
   const socialLinks = [
-    { icon: Mail, label: "Email", url: "mailto:anup@email.com", color: "hover:text-red-500" },
-    { icon: Linkedin, label: "LinkedIn", url: "#", color: "hover:text-blue-500" },
-    { icon: Github, label: "GitHub", url: "#", color: "hover:text-purple-500" },
-    { icon: Twitter, label: "Twitter", url: "#", color: "hover:text-cyan-500" }
+    { icon: Mail, label: "Email", url: "mailto:AnupKS9705@outlook.com", color: "hover:text-red-500" },
+    { icon: Linkedin, label: "LinkedIn", url: "https://www.linkedin.com/in/aks9705", color: "hover:text-blue-500" },
+    { icon: Github, label: "GitHub", url: "https://github.com/anupkumarsharma9705", color: "hover:text-purple-500" },
+    { icon: Twitter, label: "Twitter", url: "https://x.com/Anup_9705", color: "hover:text-cyan-500" }
   ];
 
   return (
@@ -139,7 +139,7 @@ export default function TeamRadio() {
                     <Mail className="w-5 h-5 text-cyan-400" />
                     <div>
                       <div className="text-xs opacity-60">Email</div>
-                      <div className="font-semibold">anupks9705@email.com</div>
+                      <div className="font-semibold">AnupKS9705@outlook.com</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-3 p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors">
